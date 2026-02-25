@@ -42,6 +42,8 @@ private:
     static std::array<DBGameInfo, 1> MultiPlayerOffsets;
     // A list of offsets for Modern Warfare 2 IW4x multi player
     static std::array<DBGameInfo, 1> MultiPlayerClientOffsets;
+ // A list of offsets for IW4x
+    static std::array<DBGameInfo, 1> IW4xOffsets;
 
     // -- Game utilities
 
