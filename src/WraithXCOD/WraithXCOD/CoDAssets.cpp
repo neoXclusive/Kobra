@@ -510,7 +510,7 @@ const std::vector<CoDGameProcess> CoDAssets::GameProcessInfo =
     { "iw4-sp.exe", SupportedGames::ModernWarfare2, SupportedGameFlags::SP },
     { "iw4x-sp.exe", SupportedGames::ModernWarfare2, SupportedGameFlags::SP },
     { "iw4mp.exe", SupportedGames::ModernWarfare2, SupportedGameFlags::MP },
-    { "iw4x.exe",  SupportedGames::ModernWarfare2, SupportedGameFlags::MP },
+     { "iw4x.exe",  SupportedGames::ModernWarfare2, SupportedGameFlags::MOD },
     // Modern Warfare 3
     { "iw5sp.exe", SupportedGames::ModernWarfare3, SupportedGameFlags::SP },
     { "iw5-mod.exe", SupportedGames::ModernWarfare3, SupportedGameFlags::SP },
@@ -2670,3 +2670,4 @@ void CoDAssets::ExportSelectedAssets(void* Caller, const std::unique_ptr<std::ve
         // We are spinning up a maximum of 3 threads for conversion
     }, DegreeOfConverter);
 }
+
